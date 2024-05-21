@@ -1,2 +1,3 @@
-docker build -t demo-site:latest .
-docker run -d -p 81:80 --name demo-site-container demo-site:latest
+docker image build -t demo-site:22.04 .
+docker run -d -t --name demo-site -p 81:80 demo-site:22.04
+

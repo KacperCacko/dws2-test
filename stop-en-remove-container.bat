@@ -1,2 +1,2 @@
-docker stop demo-site-container
-docker rm demo-site-container
+docker stop demo-site
+docker rm demo-site
