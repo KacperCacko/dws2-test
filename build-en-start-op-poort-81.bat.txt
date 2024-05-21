@@ -1,7 +1,0 @@
-@echo off
-
-REM Bouw de Docker-image
-docker build -t demo-site:latest .
-
-REM Start de Docker-container op poort 81
-docker run -d -p 81:80 --name demo-site-container demo-site:latest
